@@ -1,5 +1,5 @@
 #encoding: utf-8
 
   describe package('redis-server') do
-    it { should exist }
+    it { should be_installed }
   end
