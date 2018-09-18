@@ -27,3 +27,7 @@ $ vagrant init qwerty1979/redis64
 $ vagrant up
 ```
 
+## To use `kitchen` to check the build:
+
+1. [Install Chef/Kitchen](https://kitchen.ci/docs/getting-started/installing/)
+2. Run `kitchen test`
